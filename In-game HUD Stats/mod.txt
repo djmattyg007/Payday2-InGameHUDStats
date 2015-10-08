@@ -1,0 +1,18 @@
+{
+    "name": "In-game HUD Stats",
+    "description": "Show kill and damage stats in-game in the tab HUD overlay",
+    "authors": "cjur3, djmattyg007",
+    "contact": "https://github.com/djmattyg007/Payday2-InGameHUDStats",
+    "version": "1.0",
+    "priority": 0,
+    "hooks": [
+        {
+            "hook_id": "lib/managers/hud/hudstatsscreen",
+            "script_path": "HUDStatsScreen.lua"
+        },
+        {
+            "hook_id": "lib/units/enemies/cop/copdamage",
+            "script_path": "CopDamage.lua"
+        }
+    ]
+}
