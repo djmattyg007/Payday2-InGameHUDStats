@@ -1,7 +1,6 @@
 local _on_damage_received_original = CopDamage._on_damage_received
 
 function CopDamage:_on_damage_received(damage_info, ...)
-    log("Overridden copdamage")
     self:_hudstatsscreen_process_damage(damage_info.attacker_unit, damage_info.damage)
     return _on_damage_received_original(self, damage_info, ...)
 end

@@ -3,7 +3,7 @@
     "description": "Show kill and damage stats in-game in the tab HUD overlay",
     "authors": "cjur3, djmattyg007",
     "contact": "https://github.com/djmattyg007/Payday2-InGameHUDStats",
-    "version": "1.0",
+    "version": "1.0.1",
     "priority": 0,
     "hooks": [
         {
